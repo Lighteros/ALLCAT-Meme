@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALLCAT | $ALLCAT on Solana</title>
+    <meta
+      name="description"
+      content="ALLCAT is the Solana memecoin going all-in on the ultimate cat-powered meme coin gamble."
+    />
+    <meta property="og:title" content="ALLCAT | $ALLCAT" />
+    <meta
+      property="og:description"
+      content="Going all-in on the ultimate cat-powered meme coin gamble."
+    />
+    <meta property="og:image" content="assets/logo.png" />
+    <meta name="theme-color" content="#0a1a12" />
+    <link rel="icon" href="assets/logo.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="felt-room" aria-hidden="true">
+      <canvas id="felt-canvas"></canvas>
+      <div class="felt-grain"></div>
+      <div class="felt-diamonds"></div>
+      <div class="room-vignette"></div>
+      <div class="spot-a"></div>
+      <div class="spot-b"></div>
+    </div>
+
+    <header class="rail">
+      <a class="mark" href="#hero">
+        <img src="assets/logo.png" alt="ALLCAT" />
+        <span>ALLCAT</span>
+      </a>
+      <button class="menu" id="menu-toggle" type="button" aria-expanded="false" aria-label="Open menu">
+        <i></i><i></i><i></i>
+      </button>
+      <nav id="nav-links">
+        <a href="#about">About</a>
+        <a href="#howtobuy">How to buy</a>
+        <a href="#chart">Chart</a>
+        <a href="#joinus">Join us</a>
+      </nav>
+      <div class="rail-actions">
+        <a class="ghost" data-link="x" href="https://x.com/ALLCATMEME" target="_blank" rel="noopener noreferrer">
+          <img src="assets/icons/x.svg" alt="" />
+          <span>X</span>
+        </a>
+        <a class="gold" data-link="buy" href="https://swap.pump.fun/" target="_blank" rel="noopener noreferrer">
+          <img src="assets/icons/pumpswap.svg" alt="" />
+          <span>Buy $ALLCAT</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-orbits" aria-hidden="true">
+          <span class="chip red spin-slow"></span>
+          <span class="chip blue spin-mid"></span>
+          <span class="chip ivory spin-fast"></span>
+          <span class="chip red spin-rev"></span>
+          <span class="chip blue spin-wide"></span>
+        </div>
+        <div class="dealer">
+          <div class="chip-ring">
+            <img src="assets/logo.png" alt="ALLCAT dealer cat in a hoodie with poker chips" />
+          </div>
+          <div class="nameplate">ALLCAT</div>
+        </div>
+        <div class="hero-copy">
+          <p class="kicker">
+            <img src="assets/icons/solana.svg" alt="" />
+            Solana memecoin
+          </p>
+          <h1><span>ALL</span>CAT</h1>
+          <p class="tagline">Going all-in on the ultimate cat-powered meme coin gamble.</p>
+          <p class="blurb">
+            Hood up. Shades on. Stacks on the felt. $ALLCAT sits at the table and never looks at the exit.
+            One ticker. One pot. One very serious cat.
+          </p>
+          <button class="ca" id="ca-chip" type="button">
+            <small>Contract</small>
+            <strong id="ca-value">waiting for the deal</strong>
+          </button>
+          <div class="hero-actions">
+            <a class="gold wide" data-link="buy" href="https://swap.pump.fun/" target="_blank" rel="noopener noreferrer">
+              <img src="assets/icons/pumpswap.svg" alt="" />
+              Buy on PumpSwap
+            </a>
+            <a class="ghost wide" data-link="chart" href="https://dexscreener.com/solana" target="_blank" rel="noopener noreferrer">
+              <img src="assets/icons/dexscreener.svg" alt="" />
+              DexScreener
+            </a>
+            <a class="ghost wide" data-link="x" href="https://x.com/ALLCATMEME" target="_blank" rel="noopener noreferrer">
+              <img src="assets/icons/x.svg" alt="" />
+              Follow on X
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="section-head">
+          <p class="kicker">The table</p>
+          <h2>A cat that only plays all-in</h2>
+          <p>
+            $ALLCAT is a Solana meme coin dressed for the late-night felt: black hoodie, dark lenses,
+            and a stack that says the hand is already decided.
+          </p>
+        </div>
+        <div class="hand">
+          <article class="hole">
+            <span class="suit" aria-hidden="true"></span>
+            <h3>The look</h3>
+            <p>
+              Orange tabby. Black hoodie. Sunglasses that do not come off. The house already knows
+              who is sitting in the dealer seat.
+            </p>
+          </article>
+          <article class="hole">
+            <span class="suit diamonds" aria-hidden="true"></span>
+            <h3>The play</h3>
+            <p>
+              No hedge. No side pot. $ALLCAT pushes the stack and stays. The gamble is the whole
+              personality, not a footnote.
+            </p>
+          </article>
+          <article class="hole">
+            <span class="suit clubs" aria-hidden="true"></span>
+            <h3>The chain</h3>
+            <p>
+              Built on Solana so the chips move fast. PumpSwap for the buy. DexScreener for the
+              tape. X for the table talk.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="howtobuy" id="howtobuy">
+        <div class="section-head">
+          <p class="kicker">The buy-in</p>
+          <h2>How to buy $ALLCAT</h2>
+          <p>Four seats from empty wallet to a chip of the pot.</p>
+        </div>
+        <ol class="line">
+          <li class="seat">
+            <span class="token">1</span>
+            <div>
+              <h3>Open a Solana wallet</h3>
+              <p>Install Phantom, create or import a wallet, and keep the seed phrase off the table.</p>
+              <a href="https://phantom.app/" target="_blank" rel="noopener noreferrer">Get Phantom</a>
+            </div>
+          </li>
+          <li class="seat">
+            <span class="token blue">2</span>
+            <div>
+              <h3>Load SOL</h3>
+              <p>Send SOL to your wallet. That is the chip you toss in before the cards hit.</p>
+            </div>
+          </li>
+          <li class="seat">
+            <span class="token ivory">3</span>
+            <div>
+              <h3>Swap on PumpSwap</h3>
+              <p>Open PumpSwap, paste the $ALLCAT contract, and swap SOL for the ticker.</p>
+              <a data-link="buy" href="https://swap.pump.fun/" target="_blank" rel="noopener noreferrer">
+                <img src="assets/icons/pumpswap.svg" alt="" />
+                Open PumpSwap
+              </a>
+            </div>
+          </li>
+          <li class="seat">
+            <span class="token">4</span>
+            <div>
+              <h3>Watch the felt</h3>
+              <p>Confirm the mint on DexScreener and keep the chart open while the pot builds.</p>
+              <a data-link="chart" href="https://dexscreener.com/solana" target="_blank" rel="noopener noreferrer">
+                <img src="assets/icons/dexscreener.svg" alt="" />
+                Open DexScreener
+              </a>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="chart" id="chart">
+        <div class="section-head">
+          <p class="kicker">The tape</p>
+          <h2>Live $ALLCAT chart</h2>
+          <p>DexScreener embed for the Solana pair. Nothing else sits in this frame.</p>
+        </div>
+        <div class="screen">
+          <iframe
+            id="dex-embed"
+            title="ALLCAT DexScreener chart"
+            src="https://dexscreener.com/solana?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartDefaultOnMobile=1&chartTheme=dark&theme=dark&chartStyle=0&chartType=usd&interval=15"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="joinus" id="joinus">
+        <div class="section-head">
+          <p class="kicker">The pit</p>
+          <h2>Join us at the table</h2>
+          <p>Pull a chair. The hoodie is already here. $ALLCAT keeps a seat open on X and the swap.</p>
+        </div>
+        <figure class="banner-frame">
+          <img src="assets/banner.png" alt="ALLCAT gold wordmark with the hoodie cat behind a chip stack on green felt" />
+        </figure>
+        <div class="pit-links">
+          <a data-link="x" href="https://x.com/ALLCATMEME" target="_blank" rel="noopener noreferrer">
+            <img src="assets/icons/x.svg" alt="" />
+            <span>X / ALLCATMEME</span>
+          </a>
+          <a data-link="buy" href="https://swap.pump.fun/" target="_blank" rel="noopener noreferrer">
+            <img src="assets/icons/pumpswap.svg" alt="" />
+            <span>PumpSwap</span>
+          </a>
+          <a data-link="chart" href="https://dexscreener.com/solana" target="_blank" rel="noopener noreferrer">
+            <img src="assets/icons/dexscreener.svg" alt="" />
+            <span>DexScreener</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="felt-foot">
+      <div>
+        <strong>ALLCAT</strong>
+        <span>$ALLCAT</span>
+      </div>
+      <p>A Solana memecoin. Entertainment on the felt. Not financial advice. Play only what you can slide across the table.</p>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
